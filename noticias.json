@@ -1,21 +1,55 @@
 {
-  "lastUpdate": "2025-12-03",
+  "lastUpdate": "2024-03-15T10:30:00",
   "articles": [
     {
       "id": 1,
-      "title": "Ejemplo: Nueva vulnerabilidad crítica descubierta",
-      "content": "Investigadores de seguridad han identificado una falla grave en un software ampliamente usado...",
-      "category": "Vulnerabilidades",
-      "date": "2025-12-03",
-      "source": "Fuente Ejemplo"
+      "title": "Nuevo ataque de ransomware paraliza hospitales europeos",
+      "content": "Un grupo de hackers identificado como 'ShadowMed' está utilizando una vulnerabilidad en sistemas de gestión hospitalaria para cifrar datos críticos y exigir rescates en criptomonedas. Las autoridades recomiendan actualizar inmediatamente los sistemas.",
+      "category": "Ransomware",
+      "date": "2024-03-15",
+      "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&h=300&fit=crop",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/ejemplo-noticia"
     },
     {
       "id": 2,
-      "title": "Ejemplo: Aumentan los ataques de phishing a bancos",
-      "content": "Una nueva campaña de correos electrónicos maliciosos está engañando a usuarios para robar credenciales...",
+      "title": "Vulnerabilidad crítica en Android permite acceso remoto",
+      "content": "Google ha emitido un parche de emergencia para una vulnerabilidad en el sistema de permisos que permitía a aplicaciones maliciosas obtener acceso completo al dispositivo sin intervención del usuario.",
+      "category": "Vulnerabilidades",
+      "date": "2024-03-14",
+      "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&h=300&fit=crop",
+      "source": "CISA Alerts",
+      "url": "https://www.cisa.gov/ejemplo"
+    },
+    {
+      "id": 3,
+      "title": "Aumento del 250% en ataques de phishing bancario",
+      "content": "Una nueva campaña utiliza correos falsos que suplantan entidades bancarias mexicanas con archivos PDF maliciosos que instalan troyanos. Ya se han reportado cientos de casos.",
       "category": "Phishing",
-      "date": "2025-12-02",
-      "source": "Fuente Ejemplo"
+      "date": "2024-03-13",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=300&fit=crop",
+      "source": "Interpol Cybercrime",
+      "url": "https://www.interpol.int/ejemplo"
+    },
+    {
+      "id": 4,
+      "title": "Nuevas regulaciones GDPR para protección de datos 2024",
+      "content": "La Unión Europea ha actualizado las regulaciones GDPR con requisitos más estrictos para el manejo de datos personales, especialmente en aplicaciones móviles y servicios en la nube.",
+      "category": "Regulaciones",
+      "date": "2024-03-12",
+      "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&h=300&fit=crop",
+      "source": "EU Cybersecurity",
+      "url": "https://europa.eu/ejemplo"
+    },
+    {
+      "id": 5,
+      "title": "Guía completa para proteger servidores Docker",
+      "content": "Expertos en seguridad comparten las mejores prácticas para asegurar contenedores Docker en entornos de producción, incluyendo configuración de redes, gestión de secretos y escaneo de imágenes.",
+      "category": "Tutoriales",
+      "date": "2024-03-11",
+      "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=600&h=300&fit=crop",
+      "source": "OWASP",
+      "url": "https://owasp.org/ejemplo"
     }
   ]
 }
