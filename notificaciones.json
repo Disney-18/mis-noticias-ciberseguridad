@@ -1,0 +1,11 @@
+{
+  "notifications": [
+    {
+      "id": 1,
+      "title": "Nueva función agregada",
+      "message": "Ahora puedes guardar favoritos",
+      "date": "2024-03-15",
+      "read": false
+    }
+  ]
+}
