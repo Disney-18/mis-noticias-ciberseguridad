@@ -1,51 +1,37 @@
 {
   "articles": [
     {
-      "id": 1,
-      "title": "Nuevo ransomware ataca infraestructuras críticas en Europa",
-      "content": "Un grupo de hackers identificado como 'ShadowHive' está utilizando vulnerabilidades en software de gestión industrial para cifrar sistemas hospitalarios y energéticos. Las autoridades recomiendan actualizar inmediatamente todos los sistemas y aplicar los parches de seguridad más recientes. Se reportan al menos 12 hospitales afectados en Alemania y Francia.",
-      "category": "Ransomware",
-      "source": "CERT-EU",
-      "date": "2024-03-15",
-      "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&h=300&fit=crop",
-      "url": "https://thehackernews.com/2024/03/nuevo-ransomware-europa.html"
-    },
-    {
-      "id": 2,
-      "title": "Vulnerabilidad crítica en Apache Log4j sigue siendo explotada",
-      "content": "A pesar de los parches publicados hace meses, miles de servidores siguen vulnerables a CVE-2021-44228. Nuevas variantes están apareciendo y siendo explotadas activamente por grupos de hacking. Los expertos recomiendan actualizar inmediatamente a Log4j versión 2.17.1 o superior.",
-      "category": "Vulnerabilidades",
-      "source": "MITRE",
-      "date": "2024-03-14",
-      "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&h=300&fit=crop",
-      "url": "https://www.cisa.gov/news-events/alerts/2024/03/14/log4j-update"
-    },
-    {
-      "id": 3,
-      "title": "Aumento del 250% en ataques de phishing bancario",
-      "content": "Una nueva campaña utiliza correos falsos que suplantan entidades bancarias mexicanas con archivos PDF maliciosos que instalan troyanos. Ya se han reportado cientos de casos con pérdidas económicas significativas. La Interpol ha emitido una alerta global.",
-      "category": "Phishing",
-      "source": "Interpol Cybercrime",
-      "date": "2024-03-13",
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=300&fit=crop"
-    },
-    {
-      "id": 4,
-      "title": "Nuevas regulaciones GDPR para protección de datos 2024",
-      "content": "La Unión Europea ha actualizado las regulaciones GDPR con requisitos más estrictos para el manejo de datos personales, especialmente en aplicaciones móviles y servicios en la nube. Las multas por incumplimiento pueden llegar hasta el 4% de los ingresos globales.",
-      "category": "Regulaciones",
-      "source": "EU Cybersecurity Agency",
-      "date": "2024-03-12",
-      "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&h=300&fit=crop"
-    },
-    {
-      "id": 5,
-      "title": "Guía completa para proteger servidores Docker",
-      "content": "Expertos en seguridad comparten las mejores prácticas para asegurar contenedores Docker en entornos de producción. Incluye configuración de redes seguras, gestión de secretos, escaneo de imágenes y monitoreo continuo. El artículo incluye ejemplos de código y comandos.",
-      "category": "Tutoriales",
-      "source": "OWASP",
-      "date": "2024-03-11",
-      "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=600&h=300&fit=crop"
-    }
+{
+  "id": 1,
+  "title": "Una caja maliciosa de Rust distribuye malware específico del sistema operativo a los sistemas de desarrolladores Web3.",
+  "content": "Investigadores de ciberseguridad han descubierto un paquete Rust malicioso que puede atacar sistemas Windows, macOS y Linux y que cuenta con una funcionalidad maliciosa para ejecutarse sigilosamente en máquinas de desarrolladores haciéndose pasar por una herramienta auxiliar de unidad de máquina virtual Ethereum ( EVM ).
+
+El paquete de Rust, llamado " evm-units ", fue subido a crates.io a mediados de abril de 2025 por el usuario " ablerust ", y recibió más de 7000 descargas en los últimos ocho meses. Otro paquete creado por el mismo autor, " uniswap-utils ", incluía "evm-units" como dependencia. Se descargó más de 7400 veces. Desde entonces, los paquetes se han eliminado del repositorio.
+
+Según el sistema operativo de la víctima y si el antivirus Qihoo 360 está activo, el paquete descarga una carga útil, la escribe en el directorio temporal del sistema y la ejecuta silenciosamente, explicó la investigadora de seguridad de Socket, Olivia Brown , en un informe. "El paquete parece devolver el número de versión de Ethereum, por lo que la víctima no se da cuenta".
+
+Un aspecto notable del paquete es que está diseñado explícitamente para verificar la presencia del proceso "qhsafetray.exe", un archivo ejecutable asociado con 360 Total Security, un software antivirus desarrollado por el proveedor de seguridad chino Qihoo 360.
+
+Específicamente, el paquete está diseñado para invocar una función aparentemente inofensiva llamada "get_evm_version()", que decodifica y accede a una URL externa ("download.videotalks[.]xyz") para obtener una carga útil de la siguiente etapa dependiendo del sistema operativo en el que se esté ejecutando.
+
+En Linux, descarga un script, lo guarda en /tmp/init y lo ejecuta en segundo plano utilizando el comando nohup, lo que permite al atacante obtener control total.
+
+En macOS, descarga un archivo llamado init y lo ejecuta usando osascript en segundo plano con el comando nohup
+
+En Windows, descarga y guarda la carga útil como un archivo de script de PowerShell ("init.ps1") en el directorio temporal y verifica los procesos en ejecución en busca de "qhsafetray.exe" antes de invocar el script.
+
+Si el proceso no está presente, crea un contenedor de script de Visual Basic que ejecuta un script de PowerShell oculto sin ventana visible. Si se detecta el proceso antivirus, modifica ligeramente su flujo de ejecución invocando directamente PowerShell.
+
+"Este enfoque en Qihoo 360 es un indicador poco común y explícito de una estrategia dirigida a China, ya que se trata de una empresa china líder en internet", afirmó Brown. "Encaja con el perfil de robo de criptomonedas, ya que Asia es uno de los mayores mercados globales para la actividad minorista de criptomonedas".
+
+Las referencias a EVM y Uniswap, un protocolo de intercambio de criptomonedas descentralizado creado en la cadena de bloques Ethereum, indican que el incidente de la cadena de suministro está diseñado para apuntar a los desarrolladores en el espacio Web3 haciendo pasar los paquetes como utilidades relacionadas con Ethereum.
+
+"Ablerust, el actor de amenazas responsable del código malicioso, integró un cargador multiplataforma de segunda etapa dentro de una función aparentemente inofensiva", declaró Brown. "Peor aún, la dependencia se integró en otro paquete ampliamente utilizado (uniswap-utils), lo que permitió que el código malicioso se ejecutara automáticamente durante la inicialización".",
+  "category": "Malware",
+  "source": "The Hacker News",
+  "date": "2025-12-03",
+  "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhV7pMBv7FKpI1ZaejuUm5kIC7Q_Lw7E3o4mfaC-4dY33fF2IlNA7_dcRFmMKSmlyqxrfiZXlAee52u_-OzSTa2hiNLz961dUHKb6Khqw3YSFGIYS2mns-s1BjTRHAOiUBXKI7MM-WC5ydc4RZ0b64IPFvcu9dEFwypyyo4HHEnNqSwpoLVXRYGiewM4Tn6/s790-rw-e365/crypto-rust.jpg",
+  "url": "https://thehackernews.com"
+}
   ]
 }
