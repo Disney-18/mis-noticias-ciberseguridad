@@ -2,9 +2,9 @@
   "notifications": [
     {
       "id": 1,
-      "title": "Nueva función agregada",
-      "message": "Ahora puedes guardar favoritos",
-      "date": "2024-03-15",
+      "title": "Versión Beta",
+      "message": Lanzamiento de la app en modo Beta",
+      "date": "2025-12-01",
       "read": false
     }
   ]
