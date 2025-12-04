@@ -1,6 +1,141 @@
 {
   "articles": [
     {
+      "id": 10,
+      "title": "Fallos en Picklescan permiten que modelos maliciosos de PyTorch evadan la detección",
+      "content": [
+        "Tres fallos de seguridad críticos han sido descubiertos en la utilidad de código abierto Picklescan, la herramienta estándar para escanear modelos de aprendizaje automático basados en 'pickle'.",
+        "Las vulnerabilidades permiten a atacantes evadir la detección de malware, lo que podría facilitar un ataque a gran escala a la cadena de suministro de IA mediante la distribución de modelos maliciosos.",
+        "Los fallos identificados son: CVE-2025-10155 (una omisión de extensión de archivo), CVE-2025-10156 (que desactiva el escaneo de archivos ZIP) y CVE-2025-10157 (que socava la verificación de importaciones peligrosas).",
+        "Una explotación exitosa podría permitir ejecutar código arbitrario simplemente cargando un modelo de PyTorch no confiable. Los problemas fueron abordados en la versión 0.0.31 de Picklescan, lanzada el 9 de septiembre de 2025."
+      ],
+      "category": "Vulnerabilidades / IA",
+      "source": "The Hacker News / JFrog",
+      "date": "2025-12-03",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=300&fit=crop",
+      "url": "https://thehackernews.com/2025/12/picklescan-bugs-allow-malicious-pytorch.html"
+    },
+    {
+      "id": 9,
+      "title": "El botnet Aisuru rompe récord con un ataque DDoS de 29.7 Tbps",
+      "content": [
+        "La red de bots Aisuru ha establecido un nuevo récord mundial al lanzar un ataque de denegación de servicio distribuido (DDoS) que alcanzó un pico de 29.7 terabits por segundo (Tbps).",
+        "Cloudflare, que detectó y mitigó el ataque en 69 segundos, estima que Aisuru controla entre 1 y 4 millones de dispositivos infectados en todo el mundo.",
+        "El ataque utilizó una técnica de 'alfombrado' UDP que bombardeó un promedio de 15,000 puertos de destino por segundo para eludir defensas convencionales. En el tercer trimestre de 2025, Cloudflare registró 1,304 ataques hipervolumétricos de este botnet.",
+        "Aisuru se distribuye como un servicio de alquiler, lo que permite a actores maliciosos lanzar ataques devastadores por unos pocos cientos o miles de dólares."
+      ],
+      "category": "DDoS / Botnets",
+      "source": "BleepingComputer / Cloudflare",
+      "date": "2025-12-03",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=300&fit=crop",
+      "url": "https://thehackernews.com/2025/12/record-297-tbps-ddos-attack-linked-to.html"
+    },
+    {
+      "id": 8,
+      "title": "Vulnerabilidad crítica en WordPress King Addons bajo ataque activo",
+      "content": [
+        "Una vulnerabilidad de alta gravedad en el plugin premium 'King Addons' para Elementor en WordPress está siendo explotada activamente en la naturaleza.",
+        "La falla, un problema de control de acceso que podría permitir la ejecución remota de código (RCE), afecta a todas las versiones del plugin desde la 1.0.0 hasta la 2.1.11.",
+        "Los atacantes pueden explotar esta vulnerabilidad para tomar el control completo de sitios web WordPress vulnerables sin necesidad de credenciales.",
+        "Los administradores de sitios deben actualizar inmediatamente a la versión 2.1.12 del plugin, que parchea la vulnerabilidad. Se recomienda escanear los sitios en busca de actividad sospechosa si la actualización no se aplicó de inmediato."
+      ],
+      "category": "WordPress / Vulnerabilidades",
+      "source": "The Hacker News",
+      "date": "2025-12-02",
+      "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=300&fit=crop",
+      "url": "https://thehackernews.com/2025/12/wordpress-king-addons-flaw-under-active.html"
+    },
+    {
+      "id": 7,
+      "title": "Microsoft parchea silenciosamente fallo crítico de Windows LNK",
+      "content": [
+        "Microsoft ha solucionado una vulnerabilidad crítica en el componente de acceso directo (archivos .LNK) de Windows sin asignarle un identificador CVE ni documentarla en sus boletines de seguridad habituales.",
+        "El fallo, descubierto por investigadores de seguridad, podría haber permitido a un atacante ejecutar código malicioso de forma remota simplemente haciendo que un usuario visualice un icono de acceso directo manipulado, por ejemplo, en un explorador de archivos o en el escritorio.",
+        "Este tipo de vulnerabilidad, similar a la explotada por el famoso gusano Stuxnet, es particularmente peligrosa debido a la facilidad de explotación y la falta de interacción requerida por la víctima.",
+        "El parche fue entregado a través de una actualización acumulativa de Windows. Los usuarios y administradores deben asegurarse de que sus sistemas estén completamente actualizados."
+      ],
+      "category": "Windows / Vulnerabilidades",
+      "source": "The Hacker News",
+      "date": "2025-12-01",
+      "image": "https://images.unsplash.com/photo-1594322436404-5a0526db4d13?w=600&h=300&fit=crop",
+      "url": "https://thehackernews.com/2025/12/microsoft-silently-patches-windows-lnk.html"
+    },
+    {
+      "id": 6,
+      "title": "Brasil afectado por un troyano bancario propagado a través de Google Ads",
+      "content": [
+        "Un sofisticado troyano bancario está infectando a usuarios en Brasil a través de una campaña de publicidad maliciosa (malvertising) que abusa de Google Ads.",
+        "Los atacantes compran anuncios que se posicionan para búsquedas de software financiero legítimo, como aplicaciones de bancos populares y plataformas de criptomonedas.",
+        "Al hacer clic en el anuncio, las víctimas son redirigidas a sitios web falsos que descargan instaladores comprometidos. El malware, una vez instalado, roba credenciales bancarias, intercepta transacciones de dos factores y puede realizar transferencias fraudulentas.",
+        "Esta campaña destaca la creciente amenaza del 'malvertising' y la importancia de verificar cuidadosamente la URL de destino antes de hacer clic en anuncios, incluso en plataformas reputadas como Google."
+      ],
+      "category": "Malware / Troyanos",
+      "source": "The Hacker News",
+      "date": "2025-11-29",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=300&fit=crop",
+      "url": "https://thehackernews.com/2025/12/brazil-hit-by-banking-trojan-spread-via.html"
+    },
+    {
+      "id": 5,
+      "title": "Descubre las herramientas de IA que impulsan la próxima generación de ciberataques",
+      "content": [
+        "Los cibercriminales están adoptando rápidamente herramientas de inteligencia artificial generativa para potenciar y automatizar sus ataques, haciendo que sean más convincentes, personalizados y difíciles de detectar.",
+        "El artículo explora cómo se utilizan modelos de lenguaje grande (LLM) para crear correos de phishing y mensajes de ingeniería social perfectamente redactados y sin errores, en múltiples idiomas y a gran escala.",
+        "Otras aplicaciones incluyen la generación automática de código malicioso, la creación de deepfakes de audio para suplantación de voz (vishing) y la optimización de ataques de fuerza bruta.",
+        "La defensa debe evolucionar para contrarrestar esta amenaza, integrando también herramientas de IA para el análisis de comportamiento, la detección de anomalías lingüísticas y la automatización de respuestas."
+      ],
+      "category": "IA / Ciberamenazas",
+      "source": "The Hacker News",
+      "date": "2025-11-28",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=300&fit=crop",
+      "url": "https://thehackernews.com/2025/12/discover-ai-tools-fueling-next.html"
+    },
+    {
+      "id": 4,
+      "title": "Reduciendo la IA a su justa medida: convertir gigantes en herramientas eficientes",
+      "content": [
+        "Investigadores y empresas están desarrollando técnicas innovadoras para 'reducir' modelos de IA masivos, haciéndolos más rápidos, eficientes y accesibles sin sacrificar significativamente su rendimiento.",
+        "Métodos como la cuantización (reducir la precisión numérica de los cálculos), la poda (eliminar conexiones neuronales menos importantes) y la destilación (transferir conocimiento de un modelo grande a uno pequeño) están ganando terreno.",
+        "Estas técnicas permiten ejecutar modelos avanzados en hardware limitado, como teléfonos móviles o dispositivos de borde (edge computing), abriendo nuevas posibilidades para la IA en tiempo real y con privacidad.",
+        "El artículo analiza cómo esta tendencia hacia la eficiencia democratiza el acceso a la IA de alto nivel y reduce su coste económico y ambiental."
+      ],
+      "category": "IA / Tecnología",
+      "source": "The Hacker News",
+      "date": "2025-11-27",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=600&h=300&fit=crop",
+      "url": "https://thehackernews.com/2025/12/chopping-ai-down-to-size-turning.html"
+    },
+    {
+      "id": 3,
+      "title": "Más allá del ROI puntual: El caso de la seguridad continua en la nube",
+      "content": [
+        "Un análisis de expertos argumenta que medir la seguridad en la nube únicamente por el retorno de la inversión (ROI) en un momento dado es una visión limitada y peligrosa.",
+        "La naturaleza dinámica de la nube, con recursos que se crean y destruyen constantemente, requiere un enfoque de seguridad continua y automatizada, cuyo valor reside en la prevención de incidentes a lo largo del tiempo.",
+        "El artículo propone métricas alternativas al ROI tradicional, como el 'Time to Remediate' (tiempo para remediar), la reducción de la 'superficie de ataque' media o el costo evitado por incidentes bloqueados.",
+        "Se enfatiza la necesidad de una cultura de seguridad 'shift-left' (integración temprana) y de inversión en herramientas de orquestación de seguridad (Security as Code) que protejan de forma inherente a la infraestructura."
+      ],
+      "category": "Cloud / Estrategia",
+      "source": "The Hacker News",
+      "date": "2025-11-26",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=300&fit=crop",
+      "url": "https://thehackernews.com/expert-insights/2025/12/beyond-point-in-time-roi-case-for.html"
+    },
+    {
+      "id": 2,
+      "title": "Fallos críticos de RSC en React y Next.js",
+      "content": [
+        "Se han descubierto vulnerabilidades críticas relacionadas con la implementación de Componentes del Lado del Servidor (RSC) en el popular framework Next.js y la biblioteca React subyacente.",
+        "Estos fallos podrían permitir a atacantes inyectar y ejecutar código malicioso en el contexto del servidor, lo que podría conducir a la filtración de datos sensibles, la manipulación de la lógica de la aplicación o el compromiso completo del servidor backend.",
+        "Las vulnerabilidades afectan a configuraciones específicas y versiones de Next.js que utilizan la funcionalidad RSC de forma avanzada. El equipo de Vercel/Next.js ha lanzado parches para las versiones afectadas.",
+        "Los desarrolladores que utilizan estas tecnologías deben actualizar urgentemente a las últimas versiones estables y revisar la documentación de seguridad sobre la implementación segura de RSC."
+      ],
+      "category": "Web / Vulnerabilidades",
+      "source": "The Hacker News",
+      "date": "2025-11-26",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=300&fit=crop",
+      "url": "https://thehackernews.com/2025/12/critical-rsc-bugs-in-react-and-nextjs.html"
+    },
+    {
       "id": 1,
       "title": "Una caja maliciosa de Rust distribuye malware específico del sistema operativo a los sistemas de desarrolladores Web3.",
       "content": [
@@ -18,7 +153,7 @@
       ],
       "category": "Malware",
       "source": "The Hacker News",
-      "date": "2025-12-03",
+      "date": "2025-11-25",
       "image": "https://8upload.com/image/d42511bdf8da6870/IMG_20251203_041541_676.jpg",
       "url": "https://thehackernews.com"
     }
