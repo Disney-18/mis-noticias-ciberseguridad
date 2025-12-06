@@ -1,0 +1,126 @@
+{
+  "title": "Política de Privacidad",
+  "version": "1.0",
+  "lastUpdated": "01 de Diciembre, 2025",
+  "effectiveDate": "01 de Diciembre, 2025",
+  "content": [
+    "## 1. Introducción",
+    
+    "En **Nexus Studios**, valoramos y respetamos tu privacidad. Esta Política de Privacidad describe cómo recopilamos, usamos, almacenamos y protegemos tu información cuando utilizas nuestra aplicación **AFC NEXUS**.",
+    
+    "Nos comprometemos a proteger tus datos personales y a garantizar que tu experiencia sea segura y transparente.",
+    
+    "## 2. Información que Recopilamos",
+    
+    "### 2.1. Información de Uso",
+    
+    "- **Preferencias de visualización**: Tema claro/oscuro seleccionado.",
+    "- **Contenido favorito**: Noticias marcadas como favoritas.",
+    "- **Historial de lectura**: Noticias que has leído.",
+    "- **Estadísticas de uso**: Conteo de noticias vistas y tiempo de lectura.",
+    
+    "### 2.2. Información Técnica",
+    
+    "- **Información del dispositivo**: Tipo de dispositivo, sistema operativo, versión de la aplicación.",
+    "- **Datos de rendimiento**: Tiempos de carga, errores y crash reports.",
+    
+    "### 2.3. Lo que NO Recopilamos",
+    
+    "Nos comprometemos a NO recopilar:",
+    
+    "- Información personal identificable (nombre, email, teléfono).",
+    "- Direcciones IP o datos de localización precisa.",
+    "- Información de contactos o agenda.",
+    "- Datos de otras aplicaciones.",
+    
+    "## 3. Cómo Usamos tu Información",
+    
+    "Utilizamos la información recopilada para:",
+    
+    "- **Personalizar tu experiencia**: Mantener tus preferencias de tema y favoritos.",
+    "- **Mejorar la aplicación**: Analizar estadísticas de uso para optimizar funciones.",
+    "- **Proporcionar contenido relevante**: Mostrar noticias según tu historial de lectura.",
+    "- **Garantizar seguridad**: Prevenir actividades fraudulentas o abusivas.",
+    
+    "## 4. Almacenamiento de Datos",
+    
+    "### 4.1. Almacenamiento Local",
+    
+    "Todos los datos se almacenan exclusivamente en tu dispositivo utilizando:",
+    
+    "- **localStorage del navegador**: Para preferencias, favoritos e historial.",
+    "- **Cache de la aplicación**: Para contenido descargado y mejorar el rendimiento.",
+    
+    "### 4.2. Retención de Datos",
+    
+    "Los datos se mantienen en tu dispositivo hasta que:",
+    
+    "- Los elimines manualmente desde la configuración de la aplicación.",
+    "- Desinstales la aplicación.",
+    "- Limpies el caché y datos de tu navegador.",
+    
+    "## 5. Terceros y Servicios Externos",
+    
+    "### 5.1. Fuentes de Contenido",
+    
+    "Las noticias se obtienen de fuentes públicas en GitHub que controlamos directamente. Todo el contenido es verificado y publicado por nuestro equipo.",
+    
+    "### 5.2. Redes Sociales",
+    
+    "Los enlaces a redes sociales son proporcionados como referencia y están sujetos a las políticas de privacidad de cada plataforma:",
+    
+    "- Telegram: [Política de Privacidad](https://telegram.org/privacy)",
+    "- Twitter/X: [Política de Privacidad](https://twitter.com/privacy)",
+    "- Facebook: [Política de Privacidad](https://www.facebook.com/privacy/policy)",
+    
+    "## 6. Seguridad",
+    
+    "Implementamos medidas de seguridad robustas para proteger tu información:",
+    
+    "- **Procesamiento local**: Todo el procesamiento ocurre en tu dispositivo.",
+    "- **Sin servidores intermediarios**: No hay transmisión de datos personales.",
+    "- **Encriptación**: Los datos almacenados localmente están protegidos.",
+    "- **Acceso limitado**: Solo la aplicación tiene acceso a tus datos locales.",
+    
+    "## 7. Tus Derechos",
+    
+    "Como usuario, tienes derecho a:",
+    
+    "- **Acceso**: Ver los datos almacenados localmente.",
+    "- **Eliminación**: Borrar todos tus datos en cualquier momento.",
+    "- **Control**: Modificar tus preferencias cuando lo desees.",
+    "- **Portabilidad**: Los datos son fácilmente exportables desde tu dispositivo.",
+    "- **Olvido**: Desinstalar la aplicación elimina todos tus datos.",
+    
+    "## 8. Menores de Edad",
+    
+    "AFC NEXUS no está dirigida a menores de 13 años. No recopilamos conscientemente información de menores. Si eres padre/tutor y descubres que tu hijo nos ha proporcionado datos, contáctanos inmediatamente.",
+    
+    "## 9. Cambios en esta Política",
+    
+    "Podemos actualizar esta Política de Privacidad periódicamente. Te notificaremos sobre cambios significativos mediante:",
+    
+    "- Actualizaciones dentro de la aplicación.",
+    "- Notificaciones en nuestras redes sociales oficiales.",
+    "- Versiones anteriores disponibles en nuestro repositorio.",
+    
+    "## 10. Contacto",
+    
+    "Si tienes preguntas, preocupaciones o solicitudes relacionadas con esta Política de Privacidad, puedes contactarnos a través de:",
+    
+    "- **Email**: nexusestudioses@gmail.com",
+    "- **Telegram**: @NexusStudios_ES",
+    "- **Twitter/X**: @Sin_Red18",
+    "- **Facebook**: AFC NEXUS",
+    
+    "Responderemos a todas las consultas en un plazo máximo de 48 horas hábiles.",
+    
+    "## 11. Consentimiento",
+    
+    "Al usar AFC NEXUS, aceptas los términos de esta Política de Privacidad. Si no estás de acuerdo con alguno de los términos, por favor no utilices la aplicación.",
+    
+    "---",
+    
+    "**Fecha de entrada en vigor**: 01 de Diciembre, 2025  \n**Última revisión**: 01 de Diciembre, 2025"
+  ]
+}
